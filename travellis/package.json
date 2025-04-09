@@ -3,18 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",
+    "axios": "^1.6.7",
+    "firebase": "^11.6.0",
     "next": "15.2.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "use-places-autocomplete": "^4.0.1"
   },
   "devDependencies": {
+    "@swc/plugin-styled-components": "^7.1.2",
     "@types/next": "^8.0.7",
     "@types/node": "^20",
     "@types/react": "^19",
