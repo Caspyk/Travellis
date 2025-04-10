@@ -1,3 +1,5 @@
+'use client';
+
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { PlaceList } from '../components/PlaceList';
 
